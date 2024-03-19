@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:clima/utilities/constants.dart';
 import 'package:flutter/material.dart';
@@ -55,7 +55,7 @@ class _LocationScreenState extends State<LocationScreen> {
                       style: kTempTextStyle,
                     ),
                     Text(
-                      '☀️',
+                      '☀ ️',
                       style: kConditionTextStyle,
                     ),
                   ],
